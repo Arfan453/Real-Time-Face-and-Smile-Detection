@@ -4,8 +4,8 @@ import paho.mqtt.client as mqtt
 import json
 
 # MQTT Configuration
-DeviceDeveloperID = "laptopcamera@mohdarfan453"
-AccessToken = "OZdHVJ90dwCSExbQAcgNO4EGnm56MpC5"
+DeviceDeveloperID = "your_device_id"
+AccessToken = "your_access_token"
 BROKER = "mqtt.favoriot.com"
 PORT = 1883
 TOPIC = "/v2/streams"
