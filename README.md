@@ -1,6 +1,6 @@
 # Face and Smile Detection with MQTT
 
-This project demonstrates how to perform real-time face and smile detection using a laptop camera and send the data to the Favoriot platform via MQTT. The data includes the number of faces and smiles detected, will be sent to the platform every 10 seconds.
+This project demonstrates how to perform real-time face and smile detection using a laptop camera and send the data to the Favoriot platform via MQTT. The data sent to the platform is the number of faces and smiles detected every 10 seconds.
 
 ## Requirements
 
@@ -20,14 +20,9 @@ pip install opencv-python paho-mqtt
 Setup Instructions
 ---
 
-### 1\. Clone this Repository
+### 1\. Open the Script
 
-Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/your-username/face-smile-detection-mqtt.git
-cd face-smile-detection-mqtt
-```
+load the face_smile_detection.py script into the editor.
 
 ### 2\. Update MQTT Credentials
 
@@ -58,6 +53,15 @@ python face_smile_detection.py
 ```
 
 This will start capturing video from your webcam and detecting faces and smiles in real-time. It will display the webcam feed with rectangles drawn around detected faces and text indicating if the person is smiling.
+
+
+<p align="center"><img src="https://github.com/user-attachments/assets/34a4e21e-7ef6-4a56-8376-1682aef4be6f" width="500"></a></p>
+
+
+<p align="center"><img src="https://github.com/user-attachments/assets/46c8e627-74c9-4592-9803-cd1f8ea977a2" width="500"></a></p>
+
+
+
 
 ### 5\. MQTT Publishing
 
